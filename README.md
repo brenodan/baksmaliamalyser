@@ -5,7 +5,9 @@ BA's output is the percentage of implicit intents checking the contents of "Bund
 
 ## Getting Started
 
-Use baksmali to decompile an *.apk file into smali.
+step 1 -- decompile an *.apk file into smali code.
+step 2 -- use tool to analyse smali code.
+step 3 -- get results
 
 ### Prerequisites
 
