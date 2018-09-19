@@ -400,11 +400,8 @@ public class Main {
 	}
 	
 	public static void main(String[] args) {
-		//String filePath = "/home/breno/workspace2/SmaliAnalyzer/src/MainActivity.smali";
-		//String folderPath = "/home/breno/workspace2/SmaliAnalyzer/src";
 		
-		
-		String folderPath = "/home/breno/Downloads/smali/out/";
+		String folderPath = "";//path to folder
 		String[] projects = getDirectoryList(folderPath); 
 		ArrayList<Project> projectList = new ArrayList<Project>();
 		
@@ -492,8 +489,8 @@ public class Main {
 		
 		try {
 		    
-			//PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("/home/breno/Downloads/virusshare/out/analysis_results2.txt", true)));
-			PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("/home/breno/Downloads/smali/out/analysis_results2.txt", true)));
+			
+			PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("", true)));//path to output folder
 			
 			
 			int counterGets = 0;
